@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".fragment.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+            android:id="@+id/registerButton"
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_medium_height"
+
+            android:text="@string/profile_register_button"/>
+
+    <Button
+            android:id="@+id/logoutButton"
+
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+
+            android:text="@string/profile_logout_button"/>
+
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="@dimen/margin_medium"/>
+
+</LinearLayout>

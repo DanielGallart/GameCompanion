@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GameCompanion</string>
+
+    <string name="tab_profile">Profile</string>
+    <string name="tab_profile_userError">User not valid</string>
+    <string name="tab_profile_emailError">Email not valid</string>
+    <string name="tab_profile_passwordError">Password not valid</string>
+    <string name="tab_friends">Friends</string>
+    <string name="tab_feed">Feed</string>
+    <string name="tab_chat">Chat</string>
+    <string name="profile_register_button">Register Here</string>
+    <string name="profile_logout_button">Logout</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

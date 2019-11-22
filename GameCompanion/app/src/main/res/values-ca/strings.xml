@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GameCompanion</string>
+
+    <string name="tab_profile">Perfil</string>
+    <string name="tab_profile_userError">Usuari no valid</string>
+    <string name="tab_profile_emailError">Email no valid</string>
+    <string name="tab_profile_passwordError">Contrassenya no valida</string>
+    <string name="tab_friends">Amics</string>
+    <string name="tab_feed">Amics</string>
+    <string name="tab_chat">Xat</string>
+    <string name="profile_register_button">Registrat aquí</string>
+    <string name="profile_logout_button">Sortir</string>
+
+</resources>
