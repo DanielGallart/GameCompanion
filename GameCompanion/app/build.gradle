@@ -45,6 +45,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-firestore:21.2.1'
     //Ads
     implementation 'com.google.firebase:firebase-ads:18.3.0'
+    // Storage
+    implementation 'com.google.firebase:firebase-storage:19.1.0'
 
 }
 
