@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.gamecompanion.fragment.ProfileFragment
 import com.example.gamecompanion.R
+import com.example.gamecompanion.fragment.StreamsFragment
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.MobileAds
 import com.google.firebase.analytics.FirebaseAnalytics
@@ -42,8 +43,15 @@ class MainActivity : AppCompatActivity() {
                     fragmentTransaction.add(fragmentContainer.id, profileFragment)
                     fragmentTransaction.commit()
                 }
-                R.id.friends ->{
-
+                R.id.streams ->{
+                    FirebaseAnalytics.getInstance(this).logEvent("Streams_Tab_Click",null)
+                    //Create Fragment
+                    val fragment = StreamsFragment()
+                    //Add Fragment to Fragment Container
+                    val fragmentManager = supportFragmentManager
+                    val fragmentTransaction= fragmentManager.beginTransaction()
+                    fragmentTransaction.add(fragmentContainer.id, fragment)
+                    fragmentTransaction.commit()
                 }
 
 

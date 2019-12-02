@@ -48,6 +48,9 @@ dependencies {
     // Storage
     implementation 'com.google.firebase:firebase-storage:19.1.0'
 
+    //Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.6.1'
+
 }
 
 apply plugin: 'com.google.gms.google-services'
